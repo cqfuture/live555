@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicUsageEnvironment", "..\src\BasicUsageEnvironment\BasicUsageEnvironment.vcproj", "{9A7D9A70-891C-4C51-B4CB-ECBA4ABC9544}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "groupsock", "..\src\groupsock\groupsock.vcproj", "{DFD1E78A-BDCA-489A-BE7F-D729BFC24252}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liveMedia", "..\src\liveMedia\liveMedia.vcproj", "{601D521A-C47D-4A03-A522-F360E4685BDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediaServer", "..\src\mediaServer\mediaServer.vcproj", "{1168FED8-4903-4969-A33D-1BFD30ACD79B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{601D521A-C47D-4A03-A522-F360E4685BDA} = {601D521A-C47D-4A03-A522-F360E4685BDA}
+		{9A7D9A70-891C-4C51-B4CB-ECBA4ABC9544} = {9A7D9A70-891C-4C51-B4CB-ECBA4ABC9544}
+		{DFD1E78A-BDCA-489A-BE7F-D729BFC24252} = {DFD1E78A-BDCA-489A-BE7F-D729BFC24252}
+		{AB8939CB-9586-42D2-B611-160C99989EA4} = {AB8939CB-9586-42D2-B611-160C99989EA4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsageEnvironment", "..\src\UsageEnvironment\UsageEnvironment.vcproj", "{AB8939CB-9586-42D2-B611-160C99989EA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A7D9A70-891C-4C51-B4CB-ECBA4ABC9544}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A7D9A70-891C-4C51-B4CB-ECBA4ABC9544}.Debug|Win32.Build.0 = Debug|Win32
+		{9A7D9A70-891C-4C51-B4CB-ECBA4ABC9544}.Release|Win32.ActiveCfg = Release|Win32
+		{9A7D9A70-891C-4C51-B4CB-ECBA4ABC9544}.Release|Win32.Build.0 = Release|Win32
+		{DFD1E78A-BDCA-489A-BE7F-D729BFC24252}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFD1E78A-BDCA-489A-BE7F-D729BFC24252}.Debug|Win32.Build.0 = Debug|Win32
+		{DFD1E78A-BDCA-489A-BE7F-D729BFC24252}.Release|Win32.ActiveCfg = Release|Win32
+		{DFD1E78A-BDCA-489A-BE7F-D729BFC24252}.Release|Win32.Build.0 = Release|Win32
+		{601D521A-C47D-4A03-A522-F360E4685BDA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{601D521A-C47D-4A03-A522-F360E4685BDA}.Debug|Win32.Build.0 = Debug|Win32
+		{601D521A-C47D-4A03-A522-F360E4685BDA}.Release|Win32.ActiveCfg = Release|Win32
+		{601D521A-C47D-4A03-A522-F360E4685BDA}.Release|Win32.Build.0 = Release|Win32
+		{1168FED8-4903-4969-A33D-1BFD30ACD79B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1168FED8-4903-4969-A33D-1BFD30ACD79B}.Debug|Win32.Build.0 = Debug|Win32
+		{1168FED8-4903-4969-A33D-1BFD30ACD79B}.Release|Win32.ActiveCfg = Release|Win32
+		{1168FED8-4903-4969-A33D-1BFD30ACD79B}.Release|Win32.Build.0 = Release|Win32
+		{AB8939CB-9586-42D2-B611-160C99989EA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB8939CB-9586-42D2-B611-160C99989EA4}.Debug|Win32.Build.0 = Debug|Win32
+		{AB8939CB-9586-42D2-B611-160C99989EA4}.Release|Win32.ActiveCfg = Release|Win32
+		{AB8939CB-9586-42D2-B611-160C99989EA4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
